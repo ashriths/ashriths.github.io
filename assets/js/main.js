@@ -55,6 +55,10 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
+		// Initial animation for the title
+			setTimeout(function() {
+				$('header h1').animate({'margin-top':'0px', opacity: 1.0}, 'slow');
+			}, 0)
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
