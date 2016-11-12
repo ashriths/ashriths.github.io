@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/timeline.css" />
+		<link rel="stylesheet" href="assets/css/animate.min.css" />
 		<link rel="icon shortcut" href="favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -21,7 +22,16 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
-					<h1><strong>Ashrith Sheshan</strong></h1>
+					<h1 class="textillate" data-in-effect="fadeInDown" data-in-sync="true"><strong style="color: white">Ashrith Sheshan</strong></h1>
+					<nav>
+						<ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#work">Work</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#resume">Resume</a></li>
+						</ul>
+					</nav>
 				</div>
 			</header>
 
@@ -31,13 +41,9 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Ipsum lorem dolor aliquam ante commodo<br />
-							magna sed accumsan arcu neque.</h2>
+							<h3 style="font-family: monospace;color: #99ff00; background-color: black">[~]$ <span class="textillate code" data-in-effect="fadeInLeftBig">whoami</span></h3>
 						</header>
-						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
+						<p class="textillate" data-in-effect="fadeInDown" data-in-sync="true">I am a software developer from Bangalore, currectly working with Nutanix. </p>
 					</section>
 
 				<!-- Two -->
@@ -182,8 +188,8 @@
 						</div>
 					</section>
 
-				<!-- Four -->
-				
+				 <!-- Four -->
+				<!--
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -499,7 +505,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 						</section>
 
-					</section>
+					</section> -->
 
 
 			</div>
@@ -508,11 +514,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="mailto:ashrith.sheshan@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						<li><a href="https://github.com/ashriths" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://facebook.com/ashriths" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://in.linkedin.com/in/ashriths" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://instagram.com/ashrithsheshan" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a target="_blank" href="mailto:ashrith.sheshan@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a target="_blank" href="https://github.com/ashriths" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a target="_blank" href="https://facebook.com/ashriths" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a target="_blank" href="https://in.linkedin.com/in/ashriths" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a target="_blank" href="https://instagram.com/ashrithsheshan" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Ashrith Sheshan</li>
@@ -525,9 +531,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/timeline.js"></script>
+			<script src="assets/js/jquery.lettering.js"></script>
+			<script src="assets/js/jquery.textillate.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/timeline.js"></script>
-
 	</body>
 </html>
