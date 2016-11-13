@@ -3138,6 +3138,11 @@
 		text-decoration: inherit;
 	}
 
+	nav li a .active{
+		color: #fff !important;
+		text-decoration: inherit;
+	}
+
 	nav li a:hover{
 		color: #fff !important;
 	}
