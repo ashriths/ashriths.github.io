@@ -85,6 +85,14 @@
 		width: 960px;
 	}
 
+	.visible-small-only{
+			display: none;
+	}
+
+	.force-hyperlink{
+		color: #49bf9d;
+	}
+
 	@media screen and (max-width: 1800px) {
 
 		.container.\31 25\25 {
@@ -165,6 +173,14 @@
 
 	@media screen and (max-width: 736px) {
 
+		.invisible-small{
+			display: none;
+		}
+
+		.visible-small-only{
+			display: block !important;
+		}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 1200px;
@@ -190,6 +206,14 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.invisible-small{
+			display: none;
+		}
+
+		.visible-small-only{
+			display: block !important;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
