@@ -1,0 +1,36 @@
+Java
+Linux
+Shell Scripting
+Docker
+Algorithms
+Data Structures
+Operating Systems
+Distributed Systems
+Virtualization
+File Systems
+Internet Protocol Suite (TCP/IP)
+Network Architecture
+MongoDB
+Programming
+Web Development
+Django
+HTML
+JavaScript
+PHP
+jQuery
+D3.js
+AngularJS
+Front-end Development
+Web Design
+Rapid Prototyping
+UX Design
+Mobile Applications
+Android Development
+Adobe Creative Suite
+Application Architecture
+DevOps
+Algorithm Development
+Discrete Mathematics
+Data Visualization
+Machine Learning
+Ansible
